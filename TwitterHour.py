@@ -19,7 +19,7 @@ def takeTweetInput():
     window = Tk()
     window.title("What did you learn?")
     window.geometry('1000x200')
-    lbl = Label(window, text="Hello")
+    lbl = Label(window, text="What did you learn")
     lbl.grid(column=0, row=0)
     txt = Entry(window, width=140)
     txt.grid(column=0, row=10)
